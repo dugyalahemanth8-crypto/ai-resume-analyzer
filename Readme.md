@@ -1,56 +1,79 @@
-# AI Resume Analyzer 📄🚀
+AI Resume Analyzer 📄🚀
 
-An AI-powered web application that analyzes resumes, extracts key information, and provides improvement suggestions using the Groq LPU™ Inference Engine for lightning-fast results.
+An AI-powered web application that analyzes resumes, extracts key information, and provides improvement suggestions using the Groq LPU™ Inference Engine for fast and efficient results.
 
-## 🌟 Features
-* **PDF Parsing:** Extracts text content from uploaded resumes.
-* **AI Analysis:** Evaluates skills, experience, and formatting using Groq AI.
-* **Actionable Feedback:** Provides specific suggestions to improve ATS (Applicant Tracking System) scores.
-* **Fast Response:** Leverages Groq's high-speed inference for near-instant analysis.
+🌟 Features
 
-## 🛠️ Tech Stack
-* **Frontend:** React.js, Tailwind CSS
-* **Backend:** Python (Flask)
-* **AI Engine:** Groq Cloud API (Llama 3 / Mixtral)
-* **File Handling:** PyPDF2 or pdfminer.six
+PDF Parsing: Extracts text content from uploaded resumes.
 
-## 🚀 Getting Started
+AI-Powered Analysis: Evaluates skills, experience, and formatting using Groq AI models.
 
-### Prerequisites
-* Python 3.8+
-* Node.js & npm
-* A Groq API Key
+Actionable Feedback: Provides targeted suggestions to improve ATS (Applicant Tracking System) compatibility.
 
-### Installation
+Fast Response Time: Uses Groq’s high-speed inference engine for near-instant analysis.
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/dugyalahemanth8-crypto/ai-resume-analyzer.git](https://github.com/dugyalahemanth8-crypto/ai-resume-analyzer.git)
-   cd ai-resume-analyzer
-Setup Backend:
+🛠️ Tech Stack
 
-Bash
+Frontend: React.js, Tailwind CSS
+
+Backend: Python (Flask)
+
+AI Engine: Groq Cloud API (Llama 3 / Mixtral)
+
+File Handling: PyPDF2 or pdfminer.six
+
+🚀 Getting Started
+Prerequisites
+
+Python 3.8 or higher
+
+Node.js and npm
+
+A valid Groq API Key
+
+📦 Installation
+1️⃣ Clone the Repository
+
+```Bash
+git clone https://github.com/dugyalahemanth8-crypto/ai-resume-analyzer.git
+cd ai-resume-analyzer
+```
+
+2️⃣ Setup Backend
+```Bash
 cd backend
 python -m venv venv
-# On Windows: venv\Scripts\activate
-# On Mac/Linux: source venv/bin/activate
-source venv/bin/activate  
+```
+
+Activate the virtual environment:
+
+On Windows:
+```Bash
+venv\Scripts\activate
+```
+
+On Mac/Linux:
+```Bash
+source venv/bin/activate
+```
+Install dependencies:
+```Bash
 pip install -r requirements.txt
-Create a .env file in the backend folder and add: GROQ_API_KEY=your_key_here
+```
+Create a .env file inside the backend folder and add:
+```Code
+GROQ_API_KEY=your_key_here
+```
 
-Setup Frontend:
-
-Bash
+3️⃣ Setup Frontend
+```Bash
 cd ../frontend
 npm install
-Running the App
-Start Flask Server:
-
-Bash
+```
+▶️ Running the Application
+Start the Flask Server
 # From the backend directory
 python app.py
-Start React App:
-
-Bash
+Start the React Application
 # From the frontend directory
 npm start
