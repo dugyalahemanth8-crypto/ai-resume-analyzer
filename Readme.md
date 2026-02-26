@@ -72,8 +72,10 @@ npm install
 ```
 ▶️ Running the Application
 Start the Flask Server
-# From the backend directory
+```Bash
 python app.py
+```
 Start the React Application
-# From the frontend directory
+```Bash
 npm start
+```
